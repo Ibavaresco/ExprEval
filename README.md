@@ -3,7 +3,7 @@ It is a work in progress, but it supports variables ( starting from 'a', 'b', 'c
 It uses one stack for the values and other for the operators.
 It is appropriated for the PIC microcontrollers because it doesn't use recursion.
 
-
+<pre>
 Sample output for DATA_TYPE == TYPE_SHORT:
 
         1|356<<2+3/2 =         2849 (4105 tcy)
@@ -128,3 +128,4 @@ Error: "         1)"                (1467 tcy)
             1<2||4<3 =     1.000000 (7232 tcy)
             1>2||4<3 =     0.000000 (6686 tcy)
            100+100/3 =   133.333328 (9586 tcy)
+</pre>
